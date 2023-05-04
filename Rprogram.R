@@ -122,13 +122,13 @@ NSMBWii_Enemies <- data.frame (
 )
 
 # Print the data frame
-# NSMBWii_Enemies
+NSMBWii_Enemies
 
 # Add a new row (using the rbind plug-in)
-# New_Row_Enemy <- rbind(NSMBWii_Enemies, c("Swoop", "W 5-2", "W 6-6"))
+New_Row_Enemy <- rbind(NSMBWii_Enemies, c("Swoop", "W 5-2", "W 6-6"))
 
 # Print the new row
-# New_Row_Enemy
+New_Row_Enemy
 
 # Add a new column (using the cbind plug-in)
 New_Col_Enemy <- cbind(NSMBWii_Enemies, Habitat = c("Grassland", "Water", "Various"))
